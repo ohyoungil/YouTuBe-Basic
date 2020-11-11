@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0a14441910.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">YouTube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!--video player-->
+    <section class="player">
+      <video controls src="video/coffee.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!--info-->
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtag">
+            <li>#커피</li>
+            <li>#커피머신</li>
+            <li>#힐링</li>
+          </ul>
+        </div>
+        <div class="titleAndMoreBtn">
+          <div class="tAndV">
+            <span class="title clamp"
+              >최상의 커피 경험을 위해 엄선한 환경에서 재배된 커피만을 사용합니다.또한 무한히 사용 가능한 알루미늄 캡슐을 사용해 언제 마셔도 갓 그라인딩한 가장 신선한 커피의 맛과 향을 그대로 즐기실 수 있습니다.
+              리셉션, 대기실, 부티크, 휴게실 등 커피가 필요한 모든 공간과 귀사의 니즈에 따른 맞춤형 커피 솔루션을 제공합니다.</span
+            >
+            <span class="views">조회수 4,806회•2020. 6. 18</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+        </div>
+
+        <div class="action">
+          <ul class="action__list">
+            <li>
+              <button>
+                <i class="active fas fa-thumbs-up"></i><span>1M</span>
+              </button>
+            </li>
+            <li>
+              <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+            </li>
+            <li>
+              <button><i class="fas fa-share"></i><span>Share</span></button>
+            </li>
+            <li>
+              <button><i class="fas fa-plus"></i><span>Save</span></button>
+            </li>
+            <li>
+              <button><i class="fas fa-flag"></i><span>Report</span></button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="user__info">
+          <div class="user">
+            <img src="imgs/커피.jpg" />
+            <div class="titleAndSub">
+              <span class="title">세상의 모든 음식</span>
+              <span class="sub">구독자 10만명</span>
+            </div>
+          </div>
+          <button class="subscribe">
+            구독하기
+          </button>
+        </div>
+      </section>
+
+      <!--upNext-->
+      <section class="upNext">
+        <span class="next">다음 동영상</span>
+        <ul>
+          <li class="nextContent">
+            <div class="img"><img src="imgs/피자.jpg" /></div>
+            <div class="contentInfo">
+              <span class="title"
+                >배달피자의 개념이 전무했던 1990년, 국내 최초 피자
+                배달 전문 브랜드로서 2020년 현재 전국 462개 매장에서 고객이 원하는 가장 맛있고 영양 높은 피자를 가장 친절하게 고객들에게 제공하는 세계 배달 피자 리더로 자리매김하게 되었습니다.</span
+              >
+              <span class="name">피자 페스타</span>
+              <span class="view">조회수 8,808회•2020. 6. 10</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="nextContent">
+            <div class="img"><img src="imgs/족발.jpg" /></div>
+            <div class="contentInfo">
+              <span class="title"
+                >족발하면 떠오르는 우리나라 대표브랜드
+                손님들이 진심으로 전해준 입소문이 아니었다면 이렇게 빠르게 성장할 수 있었을까요? 
+                전국 500여개 매장. 이제 전국 어디서든 만날 수 있게 됐습니다.</span
+              >
+              <span class="name">서울 3대족발</span>
+              <span class="view">조회수 508,808회•2020. 6. 6</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="nextContent">
+            <div class="img"><img src="imgs/치킨.jpg" /></div>
+            <div class="contentInfo">
+              <span class="title"
+                >무한한 가능성을 가지고 맛에 대해 오직 한 길을 달려나가는 글로벌 기업의 리더로써
+                국내를 넘어 세계입맛의 기준이 되겠습니다. 토양의 기운을 받은 쌀의 건강함을 입히다.
+                정직한 맛, 정직한 이야기!
+                </span
+              >
+              <span class="name">치킨맛집</span>
+              <span class="view">조회수 20,088회•2020. 6. 14</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
